@@ -4,7 +4,13 @@ def swap(list_one):
     :param list_one: a list of at least two elements
     :return: the same list with the first and last elements swapped
     """
-    pass # make sure to remove this line before beginning work on this function
+
+
+fruit_switch = ["guava", "passion fruit", "lychee", "papaya"]
+print(fruit_switch)
+fruit_switch[0] = "papaya"
+fruit_switch[3] = "guava"
+print(fruit_switch)
 
 
 def rotate_left(list_one):
