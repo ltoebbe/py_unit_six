@@ -19,7 +19,14 @@ def rotate_left(list_one):
     :param list_one: A list consisting of exactly three integers
     :return: a list where all the elements have been shifted 1 place to the left
     """
-    pass # make sure to remove this line before beginning work on this function
+
+
+company_rotate = ["apple", "google", "microsoft"]
+print(company_rotate)
+company_rotate[0] = "google"
+company_rotate[1] = "microsoft"
+company_rotate[2] = "apple"
+print(company_rotate)
 
 
 def max_end(list_one):
@@ -29,4 +36,6 @@ def max_end(list_one):
     :param list_one: A list consisting of three elements - all integers
     :return: A list where all the elements are the larger of the first or last element of the original list
     """
-    pass # make sure to remove this line before beginning work on this function
+
+
+

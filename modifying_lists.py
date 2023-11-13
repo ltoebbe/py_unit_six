@@ -6,7 +6,15 @@ def create_list(starting, ending):
     :param ending: A number greater than the starting number
     :return: list of numbers starting with the first number and going up to and including the second number
     """
-    pass # remove this line when starting your function
+    length = ending - starting
+    list = [1]
+    list[0] = starting
+    for x in range(length):
+        list.append(int(list[-1] + 1))
+    return list
+
+
+print(create_list(1, 20))
 
 
 def find_odds(numbers):
@@ -15,8 +23,11 @@ def find_odds(numbers):
     :param numbers: a list of numbers
     :return: a new list consisting of only the odd numbers from the original list
     """
+    numbers = [13, 2, 9, 14, 16, 18, 9, 11, 21]
+    if list() % 2 = 1:
 
-    pass # remove this line when starting your function
+
+print(find_odds())
 
 
 def remove_duplicates(numbers):
