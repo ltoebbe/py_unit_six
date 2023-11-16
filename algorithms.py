@@ -1,11 +1,20 @@
+nums_to_sum = [9, 5, 11, 6, 1, 15]
 
-def add_numbers(numbers):
+
+def add_numbers(nums_to_sum):
     """
     Ex. add_numbers([9, 5, 11, 6, 1, 15]) returns 47
-    :param numbers: a list of numbers
+    :param nums_to_sum: a list of numbers
     :return: the sum of all the numbers in the list
     """
-    pass # remove this line when starting your function
+    summed_nums = 0
+    for sum_of_nums in range(len(nums_to_sum)):
+        summed_nums = nums_to_sum[0] + summed_nums
+        del nums_to_sum[0]
+    return summed_nums
+
+print(add_numbers(nums_to_sum))
+
 
 def get_max(numbers):
     """
