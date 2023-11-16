@@ -16,7 +16,6 @@ def create_list(starting, ending):
 
 print(create_list(1, 20))
 
-
 def find_odds(numbers):
     """
     Ex. find_odds([13, 2, 9, 14, 16, 18, 9, 11, 21]) would return [13, 9, 9, 11, 21]
